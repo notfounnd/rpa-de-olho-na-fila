@@ -1,0 +1,20 @@
+{
+    "labels": ["Dia 1", "Dia 2", "Dia 3", "Dia 4", "Dia 5", "Dia 6", "Dia 7"],
+    "dataset":
+    [
+        {
+            "label": "UBS 1",
+            "data": [2, 9, 3, 5, 2, 3],
+            "backgroundColor": "#000",
+            "borderColor": "#000",
+            "borderWidth": 1
+        },
+        {
+            "label": "UBS 2",
+            "data": [1, 0, 0, 5, 4, 2],
+            "backgroundColor": "#F00",
+            "borderColor": "#F00",
+            "borderWidth": 1
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>De Olho Na Fila - Gráfico</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js"></script>
+
+    <script src="../rpa/files/data.json" id="data-json" type="application/json"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Home</a>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h3>De Olho Na Fila</h3>
+        <p>Gráfico de Acompanhamento</p>
+    </div>
+
+    <div class="container" style="margin-top: 60px !important;">
+        <div class="row">
+            <div class="col-sm-12">
+                <canvas id="data-chart"></canvas>
+                <script src="./grafico.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark" style="margin-top: 60px !important;">
+        <div class="container">
+          <span class="text-muted">Desenvolvido por <strong>Júnior Sbrissa</strong></span>
+        </div>
+      </footer>
+</body>
+
+</html>
