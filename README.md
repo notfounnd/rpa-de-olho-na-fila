@@ -5,7 +5,7 @@ Projeto RPA para acompanhamento gráfico dos status de fila coletados por meio d
 ### Pré-requisitos
 
 - [Python 3](https://www.python.org/downloads)
-- [Firefox](https://www.mozilla.org/pt-BR/firefox/new) (recomendado)
+- [Firefox](https://www.mozilla.org/pt-BR/firefox/new)
 
 ### Instalação
 
